@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  background-color: #ffffff;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  background-color: #1f2937;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 20px 30px;
+}
+
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.navbar nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.navbar nav ul li a:hover {
+  color: #90caf9;
+}
+
+.navbar h1 {
+  font-size: 1.6rem;
+}
+
+/* ===== Secciones ===== */
+.seccion {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 35px 20px;
+}
+
+.seccion h2 {
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.seccion p {
+  line-height: 1.7;
+  color: #555;
+}
+
+/* ===== Servicios (Flexbox) ===== */
+.servicios-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.servicio-card {
+  flex: 1 1 180px;
+  background-color: #f3f4f6;
+  text-align: center;
+  padding: 25px 10px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: #444;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.servicio-card:hover {
+  background-color: #e5e7eb;
+  transform: translateY(-4px);
+}
+
+/* ===== Footer ===== */
+.pie-pagina {
+  background-color: #1f2937;
+  color: #ffffff;
+  text-align: center;
+  padding: 18px;
+  font-size: 0.8rem;
+}
